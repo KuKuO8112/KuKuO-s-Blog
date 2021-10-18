@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css","webpack://src/App.css"],"names":[],"mappings":"AAAA,KACA,qBACA,CACA,QACA,cACA,CCLA,KACA,qBACA","file":"main.5ba153d4.chunk.css","sourcesContent":["body {\nbackground-color: #bbb;\n}\na:hover{\ncursor: pointer;\n}",".App {\nbackground-color: #000;\n}"]}
