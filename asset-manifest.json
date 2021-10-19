@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KuKuO-s-Blog/static/css/main.b98ff9ae.chunk.css",
-    "main.js": "/KuKuO-s-Blog/static/js/main.ba0cefa2.chunk.js",
-    "main.js.map": "/KuKuO-s-Blog/static/js/main.ba0cefa2.chunk.js.map",
+    "main.js": "/KuKuO-s-Blog/static/js/main.519fea06.chunk.js",
+    "main.js.map": "/KuKuO-s-Blog/static/js/main.519fea06.chunk.js.map",
     "runtime-main.js": "/KuKuO-s-Blog/static/js/runtime-main.ec65fa12.js",
     "runtime-main.js.map": "/KuKuO-s-Blog/static/js/runtime-main.ec65fa12.js.map",
     "static/js/2.93992d14.chunk.js": "/KuKuO-s-Blog/static/js/2.93992d14.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.ec65fa12.js",
     "static/js/2.93992d14.chunk.js",
     "static/css/main.b98ff9ae.chunk.css",
-    "static/js/main.ba0cefa2.chunk.js"
+    "static/js/main.519fea06.chunk.js"
   ]
 }
