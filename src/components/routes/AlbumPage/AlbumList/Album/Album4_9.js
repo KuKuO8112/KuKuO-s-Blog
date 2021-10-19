@@ -12,7 +12,7 @@ import { PhotoItem } from "./PhotoItem";
 export default function Album4_9(){
     return(
         <AlbumList>
-            <AlbumTitle>Album4_9</AlbumTitle>
+            <AlbumTitle>2020-4-9 屋後麻雀</AlbumTitle>
             <PhotoList>
                 <PhotoItem>
                         <a href={img_1} ><Photo src={img_1}/></a>

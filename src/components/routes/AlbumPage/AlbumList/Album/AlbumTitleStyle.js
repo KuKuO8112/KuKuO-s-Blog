@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const AlbumTitle = styled.div`
-font-family: fantasy;
-font-size: 30px;
-font-weight: 100;
+padding-top: 20px;
+font-family: cursive;
+font-weight: 900;
+font-size: 25px;
 color: #444444;
 `;

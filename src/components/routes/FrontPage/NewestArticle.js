@@ -7,7 +7,7 @@ export default function NewestArticle(){
     return(
         <ArticleListUl>
             <NewestTitleDiv>Newest Article</NewestTitleDiv>
-            <ArticleListItem>ArticleGitPage</ArticleListItem>
+            <ArticleListItem pageName="ArticleBooks">學習時閱讀的書籍</ArticleListItem>
         </ArticleListUl>
     )
 }

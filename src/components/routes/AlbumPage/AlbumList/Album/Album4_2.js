@@ -18,7 +18,7 @@ import { PhotoItem } from "./PhotoItem";
 export default function Album4_2(){
     return(
         <AlbumList>
-            <AlbumTitle>Album4_2</AlbumTitle>
+            <AlbumTitle>2020-4-2 鶯歌山水步道</AlbumTitle>
             <PhotoList>
                 <PhotoItem>
                     <a href={img_1} ><Photo src={img_1}/></a>

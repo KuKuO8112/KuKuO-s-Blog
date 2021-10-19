@@ -7,7 +7,7 @@ export default function NewestAlbum(){
     return(
         <AlbumList>
             <NewestTitleDiv>Newest Album</NewestTitleDiv>
-            <AlbumItem date={"2020-4-9"}>Album4_9</AlbumItem>
+            <AlbumItem AlbumName="Album4_9">2020-4-9 屋後麻雀</AlbumItem>
         </AlbumList>
     )
 }

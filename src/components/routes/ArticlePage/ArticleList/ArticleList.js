@@ -1,13 +1,14 @@
 import React from "react";
 import ArticleListItem from "./ArticleListItem";
 import { ArticleListUl } from "./ArticleListStyle";
-import { ArticleListTitleDiv } from "./ArticleListTitleDiv";
+import { ArticlePageTitle } from "./ArticlePageTitle";
 
 export default function ArticleList(){
     return(
         <ArticleListUl>
-            <ArticleListTitleDiv>Article Page</ArticleListTitleDiv>
-            <ArticleListItem>ArticleGitPage</ArticleListItem>
+            <ArticlePageTitle>Article Page</ArticlePageTitle>
+            <ArticleListItem pageName="ArticleBooks">學習時閱讀的書籍</ArticleListItem>
+            <ArticleListItem pageName="ArticleGitPage">將網頁發布至Github Pages</ArticleListItem>
         </ArticleListUl>
     )
 }

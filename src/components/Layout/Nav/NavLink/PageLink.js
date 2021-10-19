@@ -7,9 +7,9 @@ font-size: 40px;
 margin-left: 30px;
 margin-right: 30px;
 transition-duration: 1s;
-color: #444444;
+color: #333333;
 &:visited{
-    color: #444444;
+    color: #333333;
 }
 &:hover{
     text-shadow: 5px 5px 5px #555555;

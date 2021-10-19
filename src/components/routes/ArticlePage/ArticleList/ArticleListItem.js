@@ -3,11 +3,11 @@ import { ArticleLink } from "./ArticleLink";
 import { ArticleListItemLi } from "./ArticleListItemStyle";
 import { ArticleListTitleDiv } from "./ArticleListTitleDiv";
 
-export default function ArticleListItem({children}){
+export default function ArticleListItem({children, pageName}){
     return(
         <ArticleListItemLi>
             <ArticleListTitleDiv>{children}</ArticleListTitleDiv>
-            <ArticleLink to={"/ArticlePage/" + children}>(閱讀)</ArticleLink>
+            <ArticleLink to={"/ArticlePage/" + pageName}>(閱讀)</ArticleLink>
         </ArticleListItemLi>
     )
 }
