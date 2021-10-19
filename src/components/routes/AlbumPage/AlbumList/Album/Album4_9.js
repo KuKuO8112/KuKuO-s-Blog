@@ -1,12 +1,12 @@
 import React from "react";
-import img_1 from "../../../../IMG/2020-4-9/4_9_1.jpg";
-import img_2 from "../../../../IMG/2020-4-9/4_9_4.jpg";
-import img_3 from "../../../../IMG/2020-4-9/4_9_5.jpg";
+import img_1 from "../../../../../IMG/2020-4-9/4_9_1.jpg";
+import img_2 from "../../../../../IMG/2020-4-9/4_9_4.jpg";
+import img_3 from "../../../../../IMG/2020-4-9/4_9_5.jpg";
 import { Photo } from "./PhotoLink";
 import { PhotoList } from "./PhotoList";
-import { AlbumLink } from "./AlbumLink";
+import { AlbumLink } from "../AlbumLink";
 import { AlbumTitle } from "./AlbumTitleStyle";
-import { AlbumList } from "./AlbumList";
+import { AlbumList } from "../AlbumList";
 import { PhotoItem } from "./PhotoItem";
 
 export default function Album4_9(){
@@ -24,7 +24,7 @@ export default function Album4_9(){
                         <a href={img_3} ><Photo src={img_3}/></a>
                     </PhotoItem>
                 </PhotoList>
-            <AlbumLink to="/AlbumPage">back</AlbumLink>
+            <AlbumLink to="/AlbumPage">back to album page</AlbumLink>
         </AlbumList>
     )
 }

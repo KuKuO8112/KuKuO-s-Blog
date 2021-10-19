@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Album = styled.div`
+export const AlbumDiv = styled.div`
 margin: auto;
 text-align: center;
 width: 60%;

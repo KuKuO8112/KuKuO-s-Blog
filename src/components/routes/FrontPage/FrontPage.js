@@ -1,7 +1,13 @@
 import React from "react";
+import { FrontPageDiv } from "./FrontPageDiv";
+import NewestAlbum from "./NewestAlbum";
+import NewestArticle from "./NewestArticle";
 
 export default function FrontPage () {
     return(
-        <div>FrontPage</div>
+        <FrontPageDiv>
+            <NewestAlbum/>
+            <NewestArticle/>
+        </FrontPageDiv>
     )
 }

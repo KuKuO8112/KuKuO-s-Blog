@@ -1,13 +1,13 @@
 import React from "react";
 import { HashRouter, Route, Switch} from "react-router-dom";
-import { Album } from "./Album/Album";
-import Album4_2 from "./Album/Album4_2";
-import Album4_9 from "./Album/Album4_9";
-import AlbumFront from "./Album/AlbumFront";
+import { AlbumDiv } from "./AlbumList/AlbumDiv";
+import Album4_2 from "./AlbumList/Album/Album4_2";
+import Album4_9 from "./AlbumList/Album/Album4_9";
+import AlbumFront from "./AlbumList/AlbumFront";
 
 export default function AlbumPage(){
     return(
-        <Album>
+        <AlbumDiv>
             <HashRouter>
                 <Switch>
                     <Route exact path="/AlbumPage" component={AlbumFront}/>
@@ -15,6 +15,6 @@ export default function AlbumPage(){
                     <Route path="/AlbumPage/Album4_9" component={Album4_9} />
                 </Switch>
             </HashRouter>
-        </Album>
+        </AlbumDiv>
     )
 }
